@@ -120,6 +120,7 @@ const uniqueAge=users.reduce(function(acc,curr){
 console.log(uniqueAge)
 
 
+
 //first name ,age>20 using reduce
 const uniqueAge2=users.reduce(function(acc,curr){
     if(curr.Age>20){
