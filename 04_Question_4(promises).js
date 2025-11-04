@@ -18,7 +18,7 @@ resolve(details)
 contest
 //return resolve if true
     .then((result)=>{
-    console.log(JSON.stringify(result))
+    console.log(result)
     })
     //return reject if false
     .catch((err)=>{
